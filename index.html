@@ -1,15 +1,17 @@
+<!-- Home page for the American F1 Website -->
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>American F1</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javascript/script.js" defer></script>
     </head>
     <body>
         <header>
             <h1>North American F1 Hub</h1>
             <h2>A Guide to All Five North American Races</h2>
             <nav>
-                <p>This is the navigation bar.</p>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="cota.html">Austin Grand Prix</a></li>
@@ -21,46 +23,44 @@
             </nav>
         </header>
         <section id="home">
-            <img src="images/placeholder.jpg" alt="Formula 1 cars racing"/>
+            <img src="images/home.jpg" alt="Formula 1 cars racing"/>
             <p class="subtitle">Explore the circuits, history, and atmosphere of all five North American Grand Prix events.</p>
         </section>
         <section id="race-links">
             <h3>Choose a Race to Explore</h3>
             <div class="race-grid">
                 <a href="cota.html" class="race-card">
-                    <img src="images/placeholder.jpg" alt="United States Grand Prix">
+                    <img src="images/texas.png" alt="United States Grand Prix">
                     <p>United States Grand Prix</p>
                 </a>
                 <a href="miami.html" class="race-card">
-                    <img src="images/placeholder.jpg" alt="Miami Grand Prix">
+                    <img src="images/florida.png" alt="Miami Grand Prix">
                     <p>Miami Grand Prix</p>
                 </a>
                 <a href="lvgp.html" class="race-card">
-                    <img src="images/placeholder.jpg" alt="Las Vegas Grand Prix">
+                    <img src="images/nevada.png" alt="Las Vegas Grand Prix">
                     <p>Las Vegas Grand Prix</p>
                 </a>
                 <a href="canada.html" class="race-card">
-                    <img src="images/placeholder.jpg" alt="Canadian Grand Prix">
+                    <img src="images/canada.png" alt="Canadian Grand Prix">
                     <p>Canadian Grand Prix</p>
                 </a>
                 <a href="mexico.html" class="race-card">
-                    <img src="images/placeholder.jpg" alt="Mexican Grand Prix">
+                    <img src="images/mexico.png" alt="Mexican Grand Prix">
                     <p>Mexican Grand Prix</p>
                 </a>
             </div>
         </section>
         <section id="fun-facts">
             <h3>Fun Facts</h3>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipiscing elit.</li>
-                <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
-            </ul>
+            <p id="random-fact-text">Click the button below to learn a fun fact about Formula One!</p>
+            <button id="random-fact-btn">Show Random Fact</button>
         </section>
     </body>
     <footer>
         <p>&copy; 2026 North American F1 Hub. All rights reserved.</p>
         <p>Created by Matthew Moser - CMSCI 256</p>
+        <p>This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.</p>
     </footer>
 
 </html>
